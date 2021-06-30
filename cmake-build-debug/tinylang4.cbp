@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tinylang4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\llvm-8\;CMake Files\..\..\..\..\..\..\usr\lib\llvm-8\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\llvm-8\lib\;CMake Files\..\..\..\..\..\..\usr\lib\llvm-8\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\llvm-8\lib\cmake\llvm\;CMake Files\include\;CMake Files\include\tinylang\;CMake Files\include\tinylang\Basic\;CMake Files\cmake\;CMake Files\cmake\modules\;CMake Files\lib\;CMake Files\lib\AST\;CMake Files\lib\Basic\;CMake Files\lib\CodeGen\;CMake Files\lib\Lexer\;CMake Files\lib\Parser\;CMake Files\lib\Sema\;CMake Files\tools\;CMake Files\tools\driver\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="intrinsics_gen">
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 intrinsics_gen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinylangAST">
+				<Option output="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/AST/libtinylangAST.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/AST"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/include"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/include"/>
+					<Add directory="/usr/lib/llvm-8/include"/>
+					<Add directory="/usr/include/llvm-8"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/AST/Makefile&quot;  VERBOSE=1 tinylangAST"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/AST/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/AST/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/AST/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinylangAST/fast">
+				<Option output="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/AST/libtinylangAST.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/AST"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/include"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/include"/>
+					<Add directory="/usr/lib/llvm-8/include"/>
+					<Add directory="/usr/include/llvm-8"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/AST/Makefile&quot;  VERBOSE=1 tinylangAST/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/AST/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/AST/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/AST/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinylangBasic">
+				<Option output="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Basic/libtinylangBasic.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Basic"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/include"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/include"/>
+					<Add directory="/usr/lib/llvm-8/include"/>
+					<Add directory="/usr/include/llvm-8"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Basic/Makefile&quot;  VERBOSE=1 tinylangBasic"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Basic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Basic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Basic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinylangBasic/fast">
+				<Option output="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Basic/libtinylangBasic.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Basic"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/include"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/include"/>
+					<Add directory="/usr/lib/llvm-8/include"/>
+					<Add directory="/usr/include/llvm-8"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Basic/Makefile&quot;  VERBOSE=1 tinylangBasic/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Basic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Basic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Basic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinylangCodeGen">
+				<Option output="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/CodeGen/libtinylangCodeGen.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/CodeGen"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/include"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/include"/>
+					<Add directory="/usr/lib/llvm-8/include"/>
+					<Add directory="/usr/include/llvm-8"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/CodeGen/Makefile&quot;  VERBOSE=1 tinylangCodeGen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/CodeGen/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/CodeGen/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/CodeGen/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinylangCodeGen/fast">
+				<Option output="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/CodeGen/libtinylangCodeGen.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/CodeGen"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/include"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/include"/>
+					<Add directory="/usr/lib/llvm-8/include"/>
+					<Add directory="/usr/include/llvm-8"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/CodeGen/Makefile&quot;  VERBOSE=1 tinylangCodeGen/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/CodeGen/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/CodeGen/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/CodeGen/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinylangLexer">
+				<Option output="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Lexer/libtinylangLexer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Lexer"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/include"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/include"/>
+					<Add directory="/usr/lib/llvm-8/include"/>
+					<Add directory="/usr/include/llvm-8"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Lexer/Makefile&quot;  VERBOSE=1 tinylangLexer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Lexer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Lexer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Lexer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinylangLexer/fast">
+				<Option output="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Lexer/libtinylangLexer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Lexer"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/include"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/include"/>
+					<Add directory="/usr/lib/llvm-8/include"/>
+					<Add directory="/usr/include/llvm-8"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Lexer/Makefile&quot;  VERBOSE=1 tinylangLexer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Lexer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Lexer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Lexer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinylangParser">
+				<Option output="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Parser/libtinylangParser.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Parser"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/include"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/include"/>
+					<Add directory="/usr/lib/llvm-8/include"/>
+					<Add directory="/usr/include/llvm-8"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Parser/Makefile&quot;  VERBOSE=1 tinylangParser"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinylangParser/fast">
+				<Option output="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Parser/libtinylangParser.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Parser"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/include"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/include"/>
+					<Add directory="/usr/lib/llvm-8/include"/>
+					<Add directory="/usr/include/llvm-8"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Parser/Makefile&quot;  VERBOSE=1 tinylangParser/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinylangSema">
+				<Option output="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Sema/libtinylangSema.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Sema"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/include"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/include"/>
+					<Add directory="/usr/lib/llvm-8/include"/>
+					<Add directory="/usr/include/llvm-8"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Sema/Makefile&quot;  VERBOSE=1 tinylangSema"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Sema/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Sema/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Sema/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinylangSema/fast">
+				<Option output="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Sema/libtinylangSema.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Sema"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/include"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/include"/>
+					<Add directory="/usr/lib/llvm-8/include"/>
+					<Add directory="/usr/include/llvm-8"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Sema/Makefile&quot;  VERBOSE=1 tinylangSema/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Sema/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Sema/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/lib/Sema/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinylang">
+				<Option output="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/tools/driver/tinylang" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/tools/driver"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/include"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/include"/>
+					<Add directory="/usr/lib/llvm-8/include"/>
+					<Add directory="/usr/include/llvm-8"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/tools/driver/Makefile&quot;  VERBOSE=1 tinylang"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/tools/driver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/tools/driver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/tools/driver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinylang/fast">
+				<Option output="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/tools/driver/tinylang" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/tools/driver"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/include"/>
+					<Add directory="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/include"/>
+					<Add directory="/usr/lib/llvm-8/include"/>
+					<Add directory="/usr/include/llvm-8"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/tools/driver/Makefile&quot;  VERBOSE=1 tinylang/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/tools/driver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/tools/driver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/tools/driver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/lib/AST/AST.cpp">
+			<Option target="tinylangAST"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/lib/Basic/Diagnostic.cpp">
+			<Option target="tinylangBasic"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/lib/Basic/TokenKinds.cpp">
+			<Option target="tinylangBasic"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/lib/Basic/Version.cpp">
+			<Option target="tinylangBasic"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/lib/CodeGen/CodeGen.cpp">
+			<Option target="tinylangCodeGen"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/lib/Lexer/Lexer.cpp">
+			<Option target="tinylangLexer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/lib/Parser/Parser.cpp">
+			<Option target="tinylangParser"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/lib/Sema/Scope.cpp">
+			<Option target="tinylangSema"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/lib/Sema/Sema.cpp">
+			<Option target="tinylangSema"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/tools/driver/Driver.cpp">
+			<Option target="tinylang"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/../../../../../../usr/lib/llvm-8/cmake/AddLLVM.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-8\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/../../../../../../usr/lib/llvm-8/cmake/CheckCompilerVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-8\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/../../../../../../usr/lib/llvm-8/cmake/CheckLinkerFlag.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-8\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/../../../../../../usr/lib/llvm-8/cmake/ChooseMSVCCRT.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-8\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/../../../../../../usr/lib/llvm-8/cmake/DetermineGCCCompatible.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-8\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/../../../../../../usr/lib/llvm-8/cmake/HandleLLVMOptions.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-8\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/../../../../../../usr/lib/llvm-8/cmake/HandleLLVMStdlib.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-8\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/../../../../../../usr/lib/llvm-8/cmake/LLVM-Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-8\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/../../../../../../usr/lib/llvm-8/cmake/LLVMConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-8\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/../../../../../../usr/lib/llvm-8/cmake/LLVMConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-8\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/../../../../../../usr/lib/llvm-8/cmake/LLVMProcessSources.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-8\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/../../../../../../usr/lib/llvm-8/lib/cmake/llvm/LLVM-Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-8\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/../../../../../../usr/lib/llvm-8/lib/cmake/llvm/LLVMExports-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-8\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/../../../../../../usr/lib/llvm-8/lib/cmake/llvm/LLVMExports.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\llvm-8\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/include/tinylang/Basic/Version.inc.in">
+			<Option virtualFolder="CMake Files\include\tinylang\Basic\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake/modules/AddTinylang.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/lib/AST/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\AST\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/lib/Basic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\Basic\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/lib/CodeGen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\CodeGen\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/lib/Lexer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\Lexer\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/lib/Parser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\Parser\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/lib/Sema/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\Sema\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jewoo/CLionProjects/tinylang4/tools/driver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\driver\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

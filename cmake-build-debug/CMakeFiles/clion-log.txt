@@ -1,0 +1,22 @@
+/usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/c/Users/jewoo/CLionProjects/tinylang4
+-- Linker detection: GNU ld
+-- Performing Test C_SUPPORTS_FPIC
+-- Performing Test C_SUPPORTS_FPIC - Success
+-- Performing Test CXX_SUPPORTS_FPIC
+-- Performing Test CXX_SUPPORTS_FPIC - Success
+-- Building with -fPIC
+-- Performing Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG
+-- Performing Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG - Success
+-- Performing Test C_SUPPORTS_WERROR_DATE_TIME
+-- Performing Test C_SUPPORTS_WERROR_DATE_TIME - Success
+-- Performing Test CXX_SUPPORTS_WERROR_DATE_TIME
+-- Performing Test CXX_SUPPORTS_WERROR_DATE_TIME - Success
+-- Performing Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW
+-- Performing Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW - Failed
+-- Performing Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW
+-- Performing Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW - Failed
+-- Performing Test CXX_SUPPORTS_CXX11
+-- Performing Test CXX_SUPPORTS_CXX11 - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/tinylang4.dir/main.cpp.o  -o tinylang4 

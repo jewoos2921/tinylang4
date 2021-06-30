@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtinylangAST.a  CMakeFiles/tinylangAST.dir/AST.cpp.o
+/usr/bin/ranlib libtinylangAST.a

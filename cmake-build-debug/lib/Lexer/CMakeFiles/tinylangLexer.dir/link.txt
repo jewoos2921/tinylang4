@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtinylangLexer.a  CMakeFiles/tinylangLexer.dir/Lexer.cpp.o
+/usr/bin/ranlib libtinylangLexer.a

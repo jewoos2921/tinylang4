@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtinylangSema.a  CMakeFiles/tinylangSema.dir/Sema.cpp.o CMakeFiles/tinylangSema.dir/Scope.cpp.o
+/usr/bin/ranlib libtinylangSema.a

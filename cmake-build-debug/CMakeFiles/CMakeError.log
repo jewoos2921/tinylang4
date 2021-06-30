@@ -1,0 +1,34 @@
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW failed with the following output:
+Change Dir: /mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_32c1d/fast && /usr/bin/make  -f CMakeFiles/cmTC_32c1d.dir/build.make CMakeFiles/cmTC_32c1d.dir/build
+make[1]: Entering directory '/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_32c1d.dir/src.c.o
+/usr/bin/cc   -fPIC -Werror=date-time -DC_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW   -Werror -Werror=unguarded-availability-new -o CMakeFiles/cmTC_32c1d.dir/src.c.o   -c /mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+cc1: error: -Werror=unguarded-availability-new: no option -Wunguarded-availability-new
+CMakeFiles/cmTC_32c1d.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_32c1d.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_32c1d.dir/src.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_32c1d/fast' failed
+make: *** [cmTC_32c1d/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW failed with the following output:
+Change Dir: /mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_81bd3/fast && /usr/bin/make  -f CMakeFiles/cmTC_81bd3.dir/build.make CMakeFiles/cmTC_81bd3.dir/build
+make[1]: Entering directory '/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_81bd3.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW   -Werror -Werror=unguarded-availability-new -o CMakeFiles/cmTC_81bd3.dir/src.cxx.o -c /mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: error: -Werror=unguarded-availability-new: no option -Wunguarded-availability-new
+CMakeFiles/cmTC_81bd3.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_81bd3.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_81bd3.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/jewoo/CLionProjects/tinylang4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_81bd3/fast' failed
+make: *** [cmTC_81bd3/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
